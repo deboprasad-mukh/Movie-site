@@ -1,0 +1,66 @@
+.row{
+    margin-left: 5px;
+    color: lavender;
+}
+
+.card{
+    display: flex;
+    padding: 10px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+ .bton{
+   
+    padding: 5px;
+   
+} 
+.card::-webkit-scrollbar{
+    display: none;
+}
+.posters{
+ 
+    object-fit: contain;
+    width:100%;
+    max-height: 200px;
+    margin-right: 5px;
+    transition: transform 300ms;
+}
+.posters:hover{
+    transform: scale(1.2);
+    
+}
+
+.hoarding{
+    color: lavender;
+    object-fit:contain;
+    height: 400px;
+}
+.content{
+   padding-left: 1rem;
+    padding-top: 12rem;
+    color: lavender;
+}
+.btn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: 	#F5F5F5;
+}
+.btn:hover{
+    transform: scale(1.2);
+    
+}
+.overview{
+    color: lavender;
+    padding-bottom: 0.3rem;
+    max-width: 500px;
+    max-height: 400px;
+}
+.fade_bottom{
+    height: 7.6rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    );
+}
